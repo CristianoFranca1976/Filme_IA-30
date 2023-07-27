@@ -1,0 +1,384 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+#container {
+
+    width: 1440px;
+    height: 900px;
+    display: inline-flex;
+    padding: 133.708px 297px 134.292px 297px;
+    justify-content: center;
+    align-items: center;
+    background: var(--gradientes-gradiente-hover,
+    linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
+
+}
+
+.card {
+
+    width: 846px;
+    height: 632px;
+    display: flex;
+    padding: 64px 96px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    border-radius: 16px;
+    background: var(--cores-cinza-dark, #1E1F28);
+    box-shadow: 0px -3px 22px 0px rgba(143, 73, 218, 0.35);
+    outline: 10px solid #9747FF;
+
+}
+
+header {
+   
+    width: 654px;
+    height: 48px;
+    display: flex;
+    width: 654px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+
+    width: 85.5px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.botao {
+
+    width: 220px;
+    height: 48px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--gradientes-gradiente-normal,
+    linear-gradient(90deg, #8323FF 0%, #FF2DAF 100%));
+
+}
+
+.botao button {
+
+    width: auto;
+    height: 20px;
+    color: var(--cores-branco, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    background-color: transparent;
+    justify-content: baseline;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn:hover span.titulo {
+    display: none
+    
+  }
+  
+.botao .flash img:hover {
+    display: none
+}  
+ 
+  button.btn:hover:before {
+    display: flex;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    content: "Gerando..."
+  }
+
+.flash {
+    
+    display: flex;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: url(assets/Ellipse\ 4.svg);
+    
+}
+
+.flash img {
+
+    width: 18px;
+    height: 18px;
+    z-index: 1;
+    
+}
+
+section {
+
+    width: 654px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+
+}
+
+
+.filme1, .filme2, .filme3 {
+    
+    width: 194px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px; 
+}
+
+.filme1 header, .filme2 header {
+    
+    width: 194px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.barbie {
+    
+    display: flex;
+    width: 140px;
+    height: 40px;
+    max-width: 140px;
+    min-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--cores-branco, #FFF);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    
+}
+
+.filme3 header{
+
+    width: 194px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+
+}
+
+.indiana  {
+    
+    
+    display: flex;
+    width: 140px;
+    height: 40px;
+    max-width: 140px;
+    min-height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--cores-branco, #FFF);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    margin: 0;
+    
+}
+
+.nota {
+
+    width: 43.3px;
+    height: 15.4px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4.322px;
+}
+
+.nota img {
+
+    
+    width: 16px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nota p {
+
+    width: 23px;
+    height: 15px;
+    color: var(--cores-amarelo, #FEEA35);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14.408px; 
+    margin: 0;
+}
+
+.img {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    width: 194px;
+    height: 368px;
+}
+
+.poster {
+    width: 194px;
+    height: 288px;
+}
+
+.info {
+
+    width: 194px;
+    height: 20px;
+    display: flex;
+    width: 194px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tempo {
+
+    width: 65px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+     gap: 4px;
+}
+
+.box1 {
+
+    width: 20px;
+    height: 20px;
+}
+
+.box11 {
+
+    width: 41px;
+    height: 20px;
+}
+
+.box11 p {
+
+    color: var(--cores-cinza-light, #8B8D9B);
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin: 0;
+}
+
+.lanc {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 52px;
+    height: 20px;
+    margin-left: auto;
+}
+
+.calend {
+
+    width: 20px;
+    height: 20px;
+}
+
+.data {
+
+    width: 28px;
+    height: 20px;
+}
+
+.data p {
+
+    color: var(--cores-cinza-light, #8B8D9B);
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+.box2 {
+
+    width: 162px;
+    height: 28px;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--cores-cinza, #2B2B37);
+
+}
+
+button {
+    
+    background: var(--cores-cinza, #2B2B37);
+    border: none;
+}
+
+button img {
+    
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    background-color: none;
+}
+
+.assitir {
+    
+    width: 99px;
+    height: 20px;
+    margin-top: -5px;
+}
+
+.assitir a {
+    
+    color: var(--cores-branco, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin: 0;
+    text-decoration: none;
+}
